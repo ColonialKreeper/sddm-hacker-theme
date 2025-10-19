@@ -8,7 +8,7 @@ All themes were created for 1080p. However, they should work well in other resol
 
 # Preview
 
-![hacker theme preivew](./Preview/hacker.png)
+![hacker theme preivew](./Previews/hacker.png)
 
 # Installation
 
