@@ -6,8 +6,6 @@ It's written using the latest version of Qt, which is **Qt6**. Its key features 
 
 All themes were created for 1080p. However, they should work well in other resolutions.
 
-## Preview of animated themes
-
 # Installation
 
 
@@ -54,16 +52,6 @@ Current=sddm-hacker-theme" | sudo tee /etc/sddm.conf
 echo "[General]
 InputMethod=qtvirtualkeyboard" | sudo tee /etc/sddm.conf.d/virtualkbd.conf
 ```
-
-## Selecting a theme
-
-You can select theme by editing [metadata](./metadata.desktop) (`/usr/share/sddm/themes/sddm-hacker-theme/metadata.desktop`).
-
-Just edit this line:
-```
-ConfigFile=Themes/astronaut.conf
-```
-All available configs are in [Themes](./Themes/) directory.
 
 ## Previewing a theme
 
