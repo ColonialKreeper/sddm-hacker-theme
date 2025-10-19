@@ -65,7 +65,9 @@ sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-hacker-theme/
 
 Initially the theme was independed fork of [MarianArlt's theme](https://github.com/MarianArlt/sddm-sugar-dark) but now the project has come a long way and started to significantly deviate from the original.
 Many of the wallpapers and fonts used in this project are very popular and copied from one user to another, so I don't know who the original creator is. I have copied the qt code and config from 
-sddm-hacker-theme and modifed it. Here are links to some of the orginal artist who created this wonderful wallpaper:
+sddm-astronaut-theme and modifed it. Here are links to some of the orginal artist who created this wonderful wallpaper:
 
 - Hacker: [wallpaper](https://motionbgs.com/hacker-typer), [font](https://fonts.google.com/specimen/Open+Sans/about)
+
+If I have made any attribution errors I apologize.
 
