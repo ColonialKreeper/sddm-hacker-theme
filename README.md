@@ -6,8 +6,16 @@ It's written using the latest version of Qt, which is **Qt6**. Its key features 
 
 All themes were created for 1080p. However, they should work well in other resolutions.
 
-## Preview of animated themes
+# Installation
 
+
+### Automatic Installation
+
+```sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ColonialKreeper/sddm-hacker-theme/master/setup.sh)"
+```
+> Works on distributions using pacman, xbps-install, dnf, zypper and maybe apt?.   
+> Remember to always read the scripts you run from the internet.
 
 
 ### Manual Installation
@@ -45,16 +53,6 @@ echo "[General]
 InputMethod=qtvirtualkeyboard" | sudo tee /etc/sddm.conf.d/virtualkbd.conf
 ```
 
-## Selecting a theme
-
-You can select theme by editing [metadata](./metadata.desktop) (`/usr/share/sddm/themes/sddm-hacker-theme/metadata.desktop`).
-
-Just edit this line:
-```
-ConfigFile=Themes/astronaut.conf
-```
-All available configs are in [Themes](./Themes/) directory.
-
 ## Previewing a theme
 
 You can preview the set theme without logging out by runnning:
@@ -67,7 +65,9 @@ sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-hacker-theme/
 
 Initially the theme was independed fork of [MarianArlt's theme](https://github.com/MarianArlt/sddm-sugar-dark) but now the project has come a long way and started to significantly deviate from the original.
 Many of the wallpapers and fonts used in this project are very popular and copied from one user to another, so I don't know who the original creator is. I have copied the qt code and config from 
-sddm-hacker-theme and modifed it. Here are links to some of the orginal artist who created this wonderful wallpaper:
+sddm-astronaut-theme and modifed it. Here are links to some of the orginal artist who created this wonderful wallpaper:
 
 - Hacker: [wallpaper](https://motionbgs.com/hacker-typer), [font](https://fonts.google.com/specimen/Open+Sans/about)
+
+If I have made any attribution errors I apologize.
 
