@@ -14,7 +14,7 @@ All themes were created for 1080p. However, they should work well in other resol
 ### Automatic Installation
 
 ```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/keyitdev/sddm-astronaut-theme/master/setup.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ColonialKreeper/sddm-hacker-theme/master/setup.sh)"
 ```
 > Works on distributions using pacman, xbps-install, dnf, zypper.   
 > Remember to always read the scripts you run from the internet.
