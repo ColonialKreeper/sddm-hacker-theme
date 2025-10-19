@@ -6,6 +6,10 @@ It's written using the latest version of Qt, which is **Qt6**. Its key features 
 
 All themes were created for 1080p. However, they should work well in other resolutions.
 
+# Preview
+
+![hacker theme preivew](./Preview/hacker.png)
+
 # Installation
 
 
